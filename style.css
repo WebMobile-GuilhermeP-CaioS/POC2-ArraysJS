@@ -1,0 +1,34 @@
+body{
+    margin: 0px;
+}
+
+article {
+    border-bottom: 4px solid black;
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.numeros-box{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.numeros {
+    border: 3px dashed black;
+    margin: 5px;
+    padding: 15px;
+}
+
+.happy-btn{
+    margin: 5px;
+    padding: 15px;
+    background-color: navy;
+    border: 2px solid lightblue;
+    color: #fff;
+    font-weight: 900;
+}
